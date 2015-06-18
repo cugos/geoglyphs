@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "files": [
+    "icon-turf-bezzier.svg",
+    "icon-turf-buffer.svg",
+    "icon-turf-concave.svg",
+    "icon-turf-convex.svg",
+    "icon-turf-erase.svg",
+    "icon-turf-intersect.svg",
+    "icon-turf-merge.svg",
+    "icon-turf-simplify.svg",
+    "icon-turf-union.svg"
+  ]
+}

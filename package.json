@@ -1,0 +1,32 @@
+{
+  "name": "geofont",
+  "version": "0.0.1",
+  "description": "A fontset for GIS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cugos/geofont.git"
+  },
+  "keywords": [
+    "font",
+    "gis",
+    "spatial",
+    "information",
+    "maps"
+  ],
+  "author": "Sam Matthews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cugos/geofont/issues"
+  },
+  "homepage": "https://github.com/cugos/geofont",
+  "devDependencies": {
+    "svg-injector": "^1.1.2"
+  },
+  "dependencies": {
+    "jsonfile": "^2.0.1"
+  }
+}
