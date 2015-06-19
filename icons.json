@@ -1,14 +1,14 @@
 {
   "version": "0.0.1",
   "files": [
-    "icon-turf-bezzier.svg",
-    "icon-turf-buffer.svg",
-    "icon-turf-concave.svg",
-    "icon-turf-convex.svg",
-    "icon-turf-erase.svg",
-    "icon-turf-intersect.svg",
-    "icon-turf-merge.svg",
-    "icon-turf-simplify.svg",
-    "icon-turf-union.svg"
+    "1p23123turf-bezzier.svg",
+    "1p23123turf-buffer.svg",
+    "1p23123turf-concave.svg",
+    "1p23123turf-convex.svg",
+    "1p23123turf-erased.svg",
+    "1p23123turf-intersect.svg",
+    "1p23123turf-merge.svg",
+    "1p23123turf-simplify.svg",
+    "1p23123turf-union.svg"
   ]
 }

@@ -2,26 +2,59 @@
 <head>
   <title>hello world</title>
   <script src="node_modules/svg-injector/dist/svg-injector.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <style>
   body {
     padding:0;
     margin:0;
-    background:#E2F0D6;
+    background:#3F5765;
+  }
+  .container {
+    margin:4em auto;
+    max-width:700px;
   }
   .icon {
     display:inline-block;
-    width:40px;
+    width: 55px;
+    margin: 30px;
   }
   </style>
 </head>
 <body>
 
+<div class="container">
+  <div id="icon-list"></div>
+
   <script>
   function init() {
-    // flaka  
+
+    // build images
+    $.ajax({
+      url: 'icons.json',
+      success: buildIcons
+    });
+
+    function buildIcons(icons) {
+      // create icon element
+      // TODO: Enforce alphabetical order?
+      for (var i = 0; i < icons.files.length; i++) {
+        var icon = document.createElement('div');
+        var img = document.createElement('img');
+        icon.className = 'icon';
+        img.className = 'inject';
+        img.src = 'src/'+icons.files[i];
+        icon.appendChild(img);
+        document.getElementById('icon-list').appendChild(icon);
+      }
+      
+      // inject SVG
+      var svgs = document.querySelectorAll('img.inject');
+      SVGInjector(svgs);
+    }
+
   }
   window.onload = init;
   </script>
-  
+
 </body>
 </html>
