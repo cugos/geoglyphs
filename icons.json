@@ -1,14 +1,53 @@
 {
   "version": "0.0.1",
   "files": [
-    "1p23123turf-bezzier.svg",
-    "1p23123turf-buffer.svg",
-    "1p23123turf-concave.svg",
-    "1p23123turf-convex.svg",
-    "1p23123turf-erased.svg",
-    "1p23123turf-intersect.svg",
-    "1p23123turf-merge.svg",
-    "1p23123turf-simplify.svg",
-    "1p23123turf-union.svg"
+    {
+      "svg": "1p23123turf-bezzier.svg",
+      "name": "1p23123turf-bezzier"
+    },
+    {
+      "svg": "1p23123turf-buffer.svg",
+      "name": "1p23123turf-buffer"
+    },
+    {
+      "svg": "1p23123turf-concave.svg",
+      "name": "1p23123turf-concave"
+    },
+    {
+      "svg": "1p23123turf-convex.svg",
+      "name": "1p23123turf-convex"
+    },
+    {
+      "svg": "1p23123turf-erased.svg",
+      "name": "1p23123turf-erased"
+    },
+    {
+      "svg": "1p23123turf-intersect.svg",
+      "name": "1p23123turf-intersect"
+    },
+    {
+      "svg": "1p23123turf-merge.svg",
+      "name": "1p23123turf-merge"
+    },
+    {
+      "svg": "1p23123turf-simplify.svg",
+      "name": "1p23123turf-simplify"
+    },
+    {
+      "svg": "1p23123turf-tin.svg",
+      "name": "1p23123turf-tin"
+    },
+    {
+      "svg": "1p23123turf-union.svg",
+      "name": "1p23123turf-union"
+    },
+    {
+      "svg": "_icons.svg",
+      "name": "_icons"
+    },
+    {
+      "svg": "turf-square-grid.svg",
+      "name": "turf-square-grid"
+    }
   ]
 }
