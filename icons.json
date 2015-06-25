@@ -2,52 +2,112 @@
   "version": "0.0.1",
   "files": [
     {
-      "svg": "1p23123turf-bezzier.svg",
-      "name": "1p23123turf-bezzier"
+      "name": "turf-along",
+      "svg": "turf-along.svg"
     },
     {
-      "svg": "1p23123turf-buffer.svg",
-      "name": "1p23123turf-buffer"
+      "name": "turf-bbox-polygon copy",
+      "svg": "turf-bbox-polygon copy.svg"
     },
     {
-      "svg": "1p23123turf-concave.svg",
-      "name": "1p23123turf-concave"
+      "name": "turf-bezzier",
+      "svg": "turf-bezzier.svg"
     },
     {
-      "svg": "1p23123turf-convex.svg",
-      "name": "1p23123turf-convex"
+      "name": "turf-buffer",
+      "svg": "turf-buffer.svg"
     },
     {
-      "svg": "1p23123turf-erased.svg",
-      "name": "1p23123turf-erased"
+      "name": "turf-center",
+      "svg": "turf-center.svg"
     },
     {
-      "svg": "1p23123turf-intersect.svg",
-      "name": "1p23123turf-intersect"
+      "name": "turf-centroid",
+      "svg": "turf-centroid.svg"
     },
     {
-      "svg": "1p23123turf-merge.svg",
-      "name": "1p23123turf-merge"
+      "name": "turf-concave",
+      "svg": "turf-concave.svg"
     },
     {
-      "svg": "1p23123turf-simplify.svg",
-      "name": "1p23123turf-simplify"
+      "name": "turf-convex",
+      "svg": "turf-convex.svg"
     },
     {
-      "svg": "1p23123turf-tin.svg",
-      "name": "1p23123turf-tin"
+      "name": "turf-destination",
+      "svg": "turf-destination.svg"
     },
     {
-      "svg": "1p23123turf-union.svg",
-      "name": "1p23123turf-union"
+      "name": "turf-envelope",
+      "svg": "turf-envelope.svg"
     },
     {
-      "svg": "_icons.svg",
-      "name": "_icons"
+      "name": "turf-erased",
+      "svg": "turf-erased.svg"
     },
     {
-      "svg": "turf-square-grid.svg",
-      "name": "turf-square-grid"
+      "name": "turf-extent",
+      "svg": "turf-extent.svg"
+    },
+    {
+      "name": "turf-intersect",
+      "svg": "turf-intersect.svg"
+    },
+    {
+      "name": "turf-kinks",
+      "svg": "turf-kinks.svg"
+    },
+    {
+      "name": "turf-line-slice",
+      "svg": "turf-line-slice.svg"
+    },
+    {
+      "name": "turf-merge",
+      "svg": "turf-merge.svg"
+    },
+    {
+      "name": "turf-midpoint copy",
+      "svg": "turf-midpoint copy.svg"
+    },
+    {
+      "name": "turf-point-grid",
+      "svg": "turf-point-grid.svg"
+    },
+    {
+      "name": "turf-point-on-line",
+      "svg": "turf-point-on-line.svg"
+    },
+    {
+      "name": "turf-point-on-surface",
+      "svg": "turf-point-on-surface.svg"
+    },
+    {
+      "name": "turf-simplify",
+      "svg": "turf-simplify.svg"
+    },
+    {
+      "name": "turf-size",
+      "svg": "turf-size.svg"
+    },
+    {
+      "name": "turf-square-grid",
+      "svg": "turf-square-grid.svg"
+    },
+    {
+      "name": "turf-square",
+      "svg": "turf-square.svg"
+    },
+    {
+      "name": "turf-tin",
+      "svg": "turf-tin.svg"
+    },
+    {
+      "name": "turf-triangle-grid",
+      "svg": "turf-triangle-grid.svg"
+    },
+    {
+      "name": "turf-union",
+      "svg": "turf-union.svg"
     }
   ]
 }

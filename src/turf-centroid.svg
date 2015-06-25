@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<g id="turf-centroid">
+	<circle cx="50.178" cy="49.646" r="7.796"/>
+	<g>
+		<g>
+			<polyline style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" points="85.341,19.483 
+				85.341,14.483 80.341,14.483 			"/>
+			
+				<line style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.618,8.618;" x1="71.723" y1="14.483" x2="24.325" y2="14.483"/>
+			<polyline style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" points="20.016,14.483 
+				15.016,14.483 15.016,19.483 			"/>
+			
+				<line style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.618,8.618;" x1="15.016" y1="28.101" x2="15.016" y2="75.499"/>
+			<polyline style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" points="15.016,79.808 
+				15.016,84.808 20.016,84.808 			"/>
+			
+				<line style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.618,8.618;" x1="28.634" y1="84.808" x2="76.032" y2="84.808"/>
+			<polyline style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" points="80.341,84.808 
+				85.341,84.808 85.341,79.808 			"/>
+			
+				<line style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.618,8.618;" x1="85.341" y1="71.19" x2="85.341" y2="23.792"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

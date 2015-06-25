@@ -11,12 +11,12 @@
   }
   .container {
     margin:4em auto;
-    max-width:700px;
+    max-width:60em;
   }
   .icon {
     display:inline-block;
-    width: 55px;
-    margin: 30px;
+    width: 80px;
+    margin: 28px;
   }
   </style>
 </head>
@@ -42,7 +42,7 @@
         var img = document.createElement('img');
         icon.className = 'icon';
         img.className = 'inject';
-        img.src = 'src/'+icons.files[i];
+        img.src = 'src/'+icons.files[i].svg;
         icon.appendChild(img);
         document.getElementById('icon-list').appendChild(icon);
       }
