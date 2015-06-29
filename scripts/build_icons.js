@@ -31,6 +31,4 @@ fs.readdir('src/', function (err, files) {
     }
   });
 
-
-
 });
