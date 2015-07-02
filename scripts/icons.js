@@ -42,24 +42,13 @@ exports.json = function() {
   });
 };
 
-exports.optimize = function() {
+exports.copy = function() {
   svgo = new SVGO();
   fs.readdir('src/', function (err, files) {
 
     fs.mkdir('./dist/', function(err) {
       ncp('./src', './dist', function(err) {
         console.log('copied directory');
-
-        // optimize each .svg file
-        fs.readdir('./dist', function (err, files) {
-          for (var i = 0; i < files.length; i++) {
-            console.log('waka');
-            if (files[i].indexOf('.svg') !== -1) {
-              svgo.optimize(files[i]);
-            }
-          }
-        });
-
       });
     });
 
