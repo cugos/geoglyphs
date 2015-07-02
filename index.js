@@ -3,10 +3,8 @@
 **  Geoglyphs
 **
 */
-var buildIcons = require('./scripts/build_icons.js');
+var icons = require('./scripts/icons.js');
 
-module.exports = {
-  geoglyphs: function() {
-    buildIcons();
-  }
-}
+// icons.svg();
+// icons.json();
+icons.optimize();

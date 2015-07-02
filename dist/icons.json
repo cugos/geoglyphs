@@ -6,8 +6,8 @@
       "svg": "turf-along.svg"
     },
     {
-      "name": "turf-bbox-polygon copy",
-      "svg": "turf-bbox-polygon copy.svg"
+      "name": "turf-bbox-polygon",
+      "svg": "turf-bbox-polygon.svg"
     },
     {
       "name": "turf-bezzier",
@@ -108,6 +108,14 @@
     {
       "name": "turf-union",
       "svg": "turf-union.svg"
+    },
+    {
+      "name": "ui-earth-east",
+      "svg": "ui-earth-east.svg"
+    },
+    {
+      "name": "ui-earth-west",
+      "svg": "ui-earth-west.svg"
     }
   ]
 }
