@@ -70,6 +70,10 @@
       "svg": "turf-midpoint copy.svg"
     },
     {
+      "name": "turf-midpoint",
+      "svg": "turf-midpoint.svg"
+    },
+    {
       "name": "turf-point-grid",
       "svg": "turf-point-grid.svg"
     },

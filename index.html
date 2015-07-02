@@ -8,20 +8,59 @@
     padding:0;
     margin:0;
     background:#3F5765;
+    font-family:monospace;
+    color:#c0c0c0;
+  }
+  header {
+    background-color:#1f2b32;
+    padding:6em 0 3em;
+    margin-bottom:3em;
+    text-align:center;
+  }
+  h1 {
+    font-size:5em;
+    margin:0;
+    color:#e5e5e5;
+  }
+  a {
+    color:#ffffff;
+  }
+  .description {
+    font-size:1.25em;
   }
   .container {
-    margin:4em auto;
+    margin:auto;
     max-width:60em;
   }
   .icon {
+    float:left;
+    width:33.33333%;
+    margin-bottom:1em;
+    fill:#c0c0c0;
+  }
+  .icon-wrapper,
+  .icon-name {
     display:inline-block;
-    width: 80px;
-    margin: 28px;
+    vertical-align:middle;
+  }
+  .icon-wrapper {
+    width:30px;
+    margin-right:10px;
+  }
+  .icon-name {
+    color:#c0c0c0;
   }
   </style>
 </head>
 <body>
 
+<header>
+  <div class="container">
+    <h1>Geoglyphs</h1>
+    <p class="description">An icon set for GIS applications. Created by <a href="http://cugos.org">CUGOS</a>.</p>
+    <a class="github-button" href="https://github.com/cugos/geoglyphs" data-style="mega" aria-label="Star cugos/geoglyphs on GitHub">View on Github</a>
+  </div>
+</header>
 <div class="container">
   <div id="icon-list"></div>
 
@@ -42,8 +81,14 @@
         var img = document.createElement('img');
         icon.className = 'icon';
         img.className = 'inject';
-        img.src = 'src/'+icons.files[i].svg;
-        icon.appendChild(img);
+        img.src = 'dist/'+icons.files[i].svg;
+
+        var iconWrap = document.createElement('div');
+        iconWrap.className = 'icon-wrapper';
+
+        iconWrap.appendChild(img);
+        icon.appendChild(iconWrap);
+        icon.innerHTML += '<div class="icon-name">'+icons.files[i].name+'</div>'
         document.getElementById('icon-list').appendChild(icon);
       }
       
@@ -55,6 +100,8 @@
   }
   window.onload = init;
   </script>
+
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
