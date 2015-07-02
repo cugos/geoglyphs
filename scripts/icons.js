@@ -7,7 +7,6 @@
 */
 var fs = require('fs'),
     jf = require('jsonfile'),
-    SVGO = require('svgo'),
     fse = require('fs.extra'),
     ncp = require('ncp').ncp,
     shell = require('shelljs'),
@@ -28,12 +27,10 @@ exports.json = function() {
       }
     }
 
-    fs.mkdir('./dist/', function(err) {
-      writeFile();
-    });
+    writeFile();
 
     function writeFile() {
-      jf.writeFile('./dist/icons.json', json, function(err) {
+      jf.writeFile('icons.json', json, function(err) {
         if (err) {
           return console.log(err);
         }
@@ -44,19 +41,11 @@ exports.json = function() {
 };
 
 exports.copy = function() {
-  svgo = new SVGO();
   fs.readdir('src/', function (err, files) {
-
     fs.mkdir('./dist/', function(err) {
       ncp('./src', './dist', function(err) {
-        shell.exec('svgo -f ./dist');
+        console.log('Created dist. Now try running `svgo -f dist` to optimize the files.');
       });
     });
-
   });
-}
-
-exports.svg = function() {
-  svgmod.colorize = false;
-  console.log('building svgs');
 }
