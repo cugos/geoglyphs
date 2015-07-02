@@ -10,6 +10,7 @@ var fs = require('fs'),
     SVGO = require('svgo'),
     fse = require('fs.extra'),
     ncp = require('ncp').ncp,
+    shell = require('shelljs'),
     pkg = require('../package.json');
 
 exports.json = function() {
@@ -48,7 +49,7 @@ exports.copy = function() {
 
     fs.mkdir('./dist/', function(err) {
       ncp('./src', './dist', function(err) {
-        console.log('copied directory');
+        shell.exec('svgo -f ./dist');
       });
     });
 
