@@ -11,6 +11,9 @@
     font-family:monospace;
     color:#c0c0c0;
   }
+  body.hide {
+    display:none;
+  }
   header {
     background-color:#1f2b32;
     padding:6em 0 3em;
@@ -20,6 +23,13 @@
     font-size:5em;
     margin:0;
     color:#e5e5e5;
+  }
+  h1 .example-icon {
+    margin-left: .2em;
+    fill: #324550;
+    width: 1em;
+    display: inline-block;
+    vertical-align: middle;
   }
   a {
     color:#ffffff;
@@ -57,11 +67,11 @@
   }
   </style>
 </head>
-<body>
+<body class="hide">
 
 <header>
   <div class="container">
-    <h1>Geoglyphs</h1>
+    <h1>Geoglyphs<img src="dist/turf-erased.svg" class="inject example-icon"></h1>
     <p class="description">An icon set for GIS applications. Created by <a href="http://cugos.org">CUGOS</a>.</p>
     <a class="github-button" href="https://github.com/cugos/geoglyphs" data-style="mega" aria-label="Star cugos/geoglyphs on GitHub">View on Github</a>
   </div>
@@ -100,6 +110,8 @@
       // inject SVG
       var svgs = document.querySelectorAll('img.inject');
       SVGInjector(svgs);
+
+      $('body').fadeIn(400); // FOUC
     }
 
   }
