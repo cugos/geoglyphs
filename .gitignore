@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
 src/_icons.ai
+npm-debug.log
