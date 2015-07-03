@@ -66,10 +66,6 @@
       "svg": "turf-merge.svg"
     },
     {
-      "name": "turf-midpoint copy",
-      "svg": "turf-midpoint copy.svg"
-    },
-    {
       "name": "turf-midpoint",
       "svg": "turf-midpoint.svg"
     },
