@@ -7,7 +7,6 @@
 */
 var fs = require('fs'),
     jf = require('jsonfile'),
-    fse = require('fs.extra'),
     ncp = require('ncp').ncp,
     shell = require('shelljs'),
     pkg = require('../package.json');
