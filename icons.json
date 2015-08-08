@@ -46,6 +46,10 @@
       "svg": "turf-erased.svg"
     },
     {
+      "name": "turf-explode",
+      "svg": "turf-explode.svg"
+    },
+    {
       "name": "turf-extent",
       "svg": "turf-extent.svg"
     },
@@ -64,10 +68,6 @@
     {
       "name": "turf-merge",
       "svg": "turf-merge.svg"
-    },
-    {
-      "name": "turf-midpoint copy",
-      "svg": "turf-midpoint copy.svg"
     },
     {
       "name": "turf-midpoint",
