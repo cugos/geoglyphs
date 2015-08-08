@@ -8,7 +8,6 @@
 var fs = require('fs'),
     jf = require('jsonfile'),
     ncp = require('ncp').ncp,
-    shell = require('shelljs'),
     pkg = require('../package.json');
 
 exports.json = function() {

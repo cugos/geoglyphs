@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.9",
   "files": [
     {
       "name": "turf-along",
@@ -8,6 +8,10 @@
     {
       "name": "turf-bbox-polygon",
       "svg": "turf-bbox-polygon.svg"
+    },
+    {
+      "name": "turf-bezier",
+      "svg": "turf-bezier.svg"
     },
     {
       "name": "turf-bezzier",
