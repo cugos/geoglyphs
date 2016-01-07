@@ -1,5 +1,5 @@
 {
-  "version": "0.0.9",
+  "version": "0.0.10",
   "files": [
     {
       "name": "turf-along",
@@ -12,10 +12,6 @@
     {
       "name": "turf-bezier",
       "svg": "turf-bezier.svg"
-    },
-    {
-      "name": "turf-bezzier",
-      "svg": "turf-bezzier.svg"
     },
     {
       "name": "turf-buffer",
